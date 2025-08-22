@@ -91,6 +91,9 @@ export default function Home() {
   };
 
   useEffect(() => {
+    say({
+      text: "Hi there! I am your assistant. Kindly say set name and call your username, and say set password and say your password. When you are done say submit."
+    });
     listenContinuously();
   }, []);
 
